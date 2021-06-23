@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desc{
+
+    Width: 1024px;
+Height: 42px;
+background-color: #1CD1B0;
+padding: 10px;
+}
+
+.tituloPrinc{
+    Width:1024px;
+Height:101px;
+background-color: #00669F;
+
+}
+
+body{
+   
+    font-family: 'Roboto'; 
+}
+
+.seccion1, .seccion2, .seccion3{
+    width: 380px;
+	height: 620px;
+	padding: 5px;
+	margin: 5px;
+	position: relative;
+    background-color: #F3F3F3;
+}
+
+.seccion1 {
+    right: 0px;
+	top: 240px;
+    left: 80px;
+	z-index: 6;
+}
+
+.fondoBatman{
+    position:relative;
+    bottom: 10px;
+    right:10px;
+    width: 380px;
+}
+
+.fotoBatman{
+    position:relative;
+    left:100px;
+    bottom: 80px;
+    border-radius: 50%;
+    width: 150px;
+	height: 150px;
+}
+
+.corazon1{
+
+    position:relative;
+    bottom: 380px;
+    left:20px;
+    width: 50px;
+	height: 5   0px;
+}
+
+.tituloBatman{
+    position:relative;
+    bottom: 120px;
+    left: 110px;
+    font-size:30px;
+}
+
+.parrafoBatman{
+    position:relative;
+    bottom: 110px;
+    left:5px;
+}
+
+.botonBatman{
+    position:relative;
+    bottom: 60px;
+    left: 110px;
+    padding: 15px 30px;
+    background-color: #00669F;
+}
+
+.seccion2{
+    right: 0px;
+	bottom: 385px;
+    left: 480px;
+	z-index: 6;
+}
+
+.fondoHarley{
+    position:relative;
+    bottom: 10px;
+    right:10px;
+    width: 380px;
+}
+
+.fotoHarley{
+    position:relative;
+    left:100px;
+    bottom: 80px;
+    border-radius: 50%;
+    width: 150px;
+	height: 150px;
+}
+
+.corazon2{
+    position:relative;
+    bottom: 380px;
+    left:20px;
+    width: 50px;
+	height: 5   0px;
+}
+
+.tituloHarley{
+    position:relative;
+    bottom: 120px;
+    left: 110px;
+    font-size:30px;
+}
+
+.parrafoHarley{
+    position:relative;
+    bottom: 110px;
+    left:20px;
+}
+
+.botonHarley{
+    position:relative;
+    bottom: 60px;
+    left: 110px;
+    padding: 15px 30px;
+    background-color: #00669F;
+}
+
+.seccion3{
+    right: 0px;
+    left: 880px;
+    bottom: 1010px;
+	z-index: 6;
+}
+
+footer{
+    position:absolute;
+    width: 1400px;
+    bottom: -800px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 20px;
+	margin: 10px;
+}
+
