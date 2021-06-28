@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+li{
+    display: inline;
+    font-size: large;
+    
+}
+
+body{
+    width: 1024px;
+}
+
+.seccion1Header{
+    width: 1024px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.listaHeader1{
+    position: relative;
+    top: 1px;
+    right: 20px;
+}
+
+.listaHeader2{
+    position: relative;
+    top: 18px;
+    right: 20px;
+}
+.seccion2Header{
+    width: 1024px;
+    height: 60px;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.imgSeccion2{
+    position: relative;
+    top: 20px;
+}
+
+.h1Img{
+    position: absolute;
+    left: 640px;
+    top: 240px;
+    width: 370px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 5px;
+}
+
+.h5Img{
+    position: absolute;
+    left: 730px;
+    top: 290px;
+}
+
+.botonImg{
+    position: absolute;
+    left: 750px;
+    top: 320px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    width: 118px;
+    height: 50px;
+}
+
+.huellita{
+    position: relative;
+    left:430px;
+}
+
+.h1Prod{
+    position: relative;
+    left:310px
+}
+
+
+.navProd{
+    position: relative;
+    top: 25px;
+}
+.ulProd{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+.seccionImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.h4Imagenes{
+    position: absolute;
+    top: 220px;
+    text-align: center;
+}
+
+.pImagenes{
+    position: absolute;
+    top: 240px;
+    color: #F0A83E;
+}
+ 
+
+.formulario{
+    position: relative;
+    top: 130px;
+    left: 340px;
+
+}
+
+.tituloFormulario{
+    position: relative;
+    left: 86px;
+}
+.itemsFormularios{
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3C2313;
+    color: white;
+    margin: 5px;
+    font-size:large;
+}
+
+.botonFormulario{
+    position: relative;
+    left: 25px;
+    top: 20px;
+    background-color: #8A8787;
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    height: 35px;
+    font-size: large;
+}
+
+.botonFormulario2{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    background-color: #F0A83E;
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    height: 35px;
+    font-size: large;
+}
+
+.seccionFooter{
+    width: 1024px;
+    height: 60px;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 210px;
+
+}
+
+.pseccionFooter{
+    position: absolute;
+    left: 90px;
+    top:22px;
+    font-size: large;
+    
+}
+
+.pseccionFooter2{
+    position: absolute;
+    left: 540px;
+    top:16px;
+    font-size: small;
+    width: 390px;
+    background-color: white;
+    color: black;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.botonseccionFormulario{
+    background-color: #3C2313;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    top: 15px;
+    position: relative;
+}
+
+.datosFormularios{
+    position: relative;
+    top: 210px;
+    width: 1024px;
+    background-color: #3C2313;
+    font: larger;
+}
+
+
+
+.logoFooter{
+    position: relative;
+    left: 775px;
+    bottom: 114px;
+}
+
+footer{
+
+    position: relative;
+    bottom: -210px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
